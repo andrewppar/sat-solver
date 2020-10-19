@@ -6,3 +6,7 @@ check:
 
 lint: 
 	flake8  sat_solver
+
+doc: 
+	cd docs
+	make html
