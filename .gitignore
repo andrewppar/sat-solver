@@ -1,3 +1,8 @@
 *.pyc
 __init__.py
 __pycache__
+docs/build
+docs/source 
+docs/source/modules.rst
+docs/source/sat_solver.rst
+

@@ -8,9 +8,17 @@ Welcome to sat_solver's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+
+   modules
 
 
+.. include:: ../../README.rst
+
+
+.. automodule:: sat_solver
+    :members:
+    :undoc-members:
+    :show-inheritance:
 
 Indices and tables
 ==================
