@@ -65,3 +65,15 @@ class TestSatSolver(unittest.TestCase):
                      And([P,R]))
         table =  TruthTable(formula)
         self.assertEqual(table.tautology(), False)
+
+class TestBenchmark(unittest.TestCase): 
+    
+    def test_20_atoms(self):
+        rf = RandomFormulaGenerator()
+        atoms = set(map(lambda x: Atom(str(x)), range(19)))
+        rf.atoms = atoms
+        f = rf.random_formula_of_depth(Atom("p"), 3)
+        print(f)
+        tt = TruthTable(f)
+
+
